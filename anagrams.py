@@ -61,4 +61,4 @@ def hello_world():
         return render_template('anagrams.html', anagrams=None, word=None)
 
 if __name__ == '__main__':
-    app.run(debug=True, host="x.x.x.x",port=5500)
+    app.run(debug=True, host="192.249.58.45",port=5500)
