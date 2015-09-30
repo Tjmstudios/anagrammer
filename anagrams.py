@@ -12,6 +12,7 @@ def setup_dictionary(list_of_words):
     {'aaabnn': ['banana'], 'epst': ['step', 'pest']}
     '''
 
+	# adding more comments is fun and stuff
     # hold the lexigraphically-sorted dictionary
     lex_dict = {}
     for item in list_of_words:
@@ -29,11 +30,8 @@ def find_anagrams(word, lex_dict):
     Input:
     word     = any sequence of characters
     lex_dict = lexigraphically sorted dictionary (use setup_dictionary())
-
-    Example:
-    >>> find_anagrams("test")
-    Anagrams of 'test' are: ['sett', 'stet'] 
-    '''
+	'''
+	
 
     lex_word = "".join(sorted(word))
     dict_result = []
